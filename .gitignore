@@ -1,0 +1,5 @@
+*.swp
+*~
+/result
+/result-[2-9]
+/result-[1-9][0-9]*
