@@ -177,6 +177,6 @@ else
   for(( i=0; i<$NUM_FILES; i++))
   do
     handle_watchfile "''${MAPFILE[i]}" "$(($i+1))" || :
-  done |& ${less}/bin/less
+  done |& ${less}/bin/less -i
 fi
 ''
