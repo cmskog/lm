@@ -27,7 +27,7 @@ WATCHDIR="''${XDG_STATE_HOME:-$HOME/.local/state}/lm/${watch-later-reldir}"
 
 usage()
 {
-  echo "Usage: $0 [-l | -p | -r] [<1-Number of stored movies>"]
+  echo "Usage: ''${0##*/} [-l | -p | -r] [<1-Number of stored movies>] | <video file>"
   exit $1
 }
 
